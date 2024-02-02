@@ -1,6 +1,6 @@
 build:
-	@go build -o bin/blockchain
+	@go build -o bin/cryptoexchange
 run: build
-	@./bin/blockchain
+	@./bin/cryptoexchange
 test:
 	go test -v ./...
